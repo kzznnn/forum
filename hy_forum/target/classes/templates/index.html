@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorator="layout/offline">
+<head>
+<title>论坛</title>
+<link
+	href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"
+	rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet" />
+</head>
+<body>
+	<main layout:fragment="content">
+	<article class="container">
+		<header class="row">
+			<div class="col s12">
+				<h1 class="flow-text center">Description</h1>
+				<p class="center">
+					该论坛为Java开发的web项目，是一个基于Spring Boot的开源论坛，为大家提供一个社区化平台。主要功能有登录、注册、浏览话题、发表话题、上传照片
+					话题分类浏览、评论、个人用户的积分、点赞（置为有用评论）、站内信通知、用户积分排行榜等等。它是一个校内讨论交流的平台，师生可以畅所欲言。</p>
+			</div>
+		</header>
+		<section class="row">
+			<div class="col s12">
+				<h1 class="flow-text center">Contents</h1>
+				<p class="center">动漫、摄影、学习、小说、王者</p>
+				<h1 class="flow-text center">Tips</h1>
+				<p class="center">如果想了解更多，请点击登陆，进入网站</p>
+<!--				<h1 class="flow-text center">Store</h1>-->
+<!--				<p class="center">Github</p>-->
+			</div>
+		</section>
+	</article>
+	</main>
+</body>
+</html>

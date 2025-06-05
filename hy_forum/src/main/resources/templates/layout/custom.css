@@ -1,0 +1,12 @@
+/* custom.css */
+body {
+    background-color: #f2f2f2; /* 自定义背景颜色 */
+}
+
+.nav-wrapper {
+    background-color: #3498db; /* 自定义导航栏背景颜色 */
+}
+
+footer {
+    background-color: #2c3e50; /* 自定义页脚背景颜色 */
+}
